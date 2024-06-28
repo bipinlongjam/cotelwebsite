@@ -1,0 +1,51 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2rem;
+    width: 90%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 1rem;
+    color: black;
+  }
+  p {
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2rem;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 1.2rem;
+    color: black;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #462496;
+    color: #f1ebeb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  .btn:hover {
+    background-color: #3c0dbe;
+  }
+  .multi-step-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
